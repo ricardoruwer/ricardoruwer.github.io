@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  margin-bottom: 3rem;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  color: #2fc2ef;
+  text-decoration: none;
+}
+
+.socials {
+  margin-top: 6rem;
+}
+
+.socials svg {
+  margin: 0 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.github {
+  fill: #181717;
+}
+
+.linkedin {
+  fill: #0077B5;
+}
+
+.twitter {
+  fill: #1DA1F2;
+}
+
+.facebook {
+  fill: #3B5998;
+}
